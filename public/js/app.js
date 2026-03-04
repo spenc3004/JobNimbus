@@ -157,7 +157,7 @@ document.getElementById('fetch-btn').addEventListener('click', () => {
 
             // Hide loading spinner
             document.getElementById('loading-spinner').style.display = 'none';
-            document.getElementById('download-csv').disabled = false
+
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
